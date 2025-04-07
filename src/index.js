@@ -42,23 +42,7 @@ function updateCity(event) {
     </div>
     <div class="time">${cityTime.format("h:mm:ss[<small>]A[</small>]")}</div>
     </div>
-    <div class="cities">
-    <div class="city">
-    <h2>New York</h2>
-    <div class="date">August 15th, 2022</div>
-    <div class="time">12:00:00 AM</div>
-    </div>
-    <div class="city">
-    <h2>London</h2>
-    <div class="date">August 15th, 2022</div>
-    <div class="time">12:00:00 AM</div>
-    </div>
-    <div class="city">
-    <h2>Tokyo</h2>
-    <div class="date">August 15th, 2022</div>
-    <div class="time">12:00:00 AM</div>
-    </div>
-    </div>
+    
     `;
     }
     updateTime();
